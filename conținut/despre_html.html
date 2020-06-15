@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> despre_html</title>
+
+    <link rel="stylesheet" href="css/stil.css" type="text/css"/>
+</head>
+
+<body>
+    <section class="about">
+    <h1>
+    <strong> Programare web </strong> </h1>
+    
+    <p>
+        <strong>Limbajul HTML </strong> </p>
+    <p>
+        <strong>HTML(HyperText Markup Language)</strong> este un limbaj de marcare utilizat pentru a crea pagini web. </p>
+    <p>
+        Un exemplu de cod html îl găsiți în imaginea următoare care se află la adresa <a href= "https://commons.wikimedia.org/wiki/File:HTML_logo.png">https://commons.wikimedia.org/wiki/File:HTML_logo.png </a>
+    </p>
+    <p>
+        Imaginea are atributul <code> height </code> de valoare 147.
+    </p>
+    <p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png" height 147>
+    </p>
+
+    <p>
+        <strong>Tag-urile</strong> html cele mai utilizate în realizarea tabelelor sunt:
+    </p>
+    <table border="1">
+        <tr>
+            <td><code>table</code></th>
+            <td>definește un tabel</th>
+        </tr>
+        <tr>
+            <td><code>tr</code></th>
+            <td>un rând într-un tabel</th>
+        </tr>
+        <tr>
+            <td><code>td</code></th>
+            <td>o celulă într-un tabel</th>
+        </tr>
+    </table>
+    <p>
+        <strong>Observație: </strong>Pentru a pune un contur unui tabel se poate(dar nu se recomandă)să se pună atributul border="1".
+        La validare va da eroarea:<i> The border attribute on the table element is obsolete. </i>
+    </p>
+</section>
+    <section class="formulare">
+    <br>
+    <br>
+    <p>
+        Formularele se pot crea cu ajutorul tagului <code>form</code> care poate contine tag-urile: <code>input, textarea, label, select, option, button.</code>
+    </p>
+    <p>
+        Pentru mai multe detalii consultați cursul sau tutorialul <a href="http://www.w3schools.com/html/html_forms.asp">HTML Forms and Inputs</a> de la adresa <a href="http://www.w3schools.com/html/html_forms.asp">"http://www.w3schools.com/html/html_forms.asp"</a>
+    </p>
+    <p>
+        Un exemplu de formular este următorul:
+    </p>
+    <p>
+        <form>
+            <label for="nume">Nume: </label><input type="text" id="nume" name="nume" value="nume">
+            <br><br>
+            <label for="prenume">Prenume: </label><input type="text" id="prenume" name="prenume" value="prenume">
+            <br><br>
+            <label for="parola">Parolă: </label> <input type="password" id="pass" name="parola">
+            <br><br>
+            <label for="culoare">Culoarea preferată: </label>
+            <select id="culoare">
+                <option value="rosu">rosu</option>
+                <option value="albastru">albastru</option>
+                <option value="galben">galben</option>
+            </select>
+            <br>
+            <label for="descriere">Descriere: </label>
+            <textarea id="descriere" rows="4" cols="50"> </textarea>
+            <br>
+            <input type="checkbox"><label for="checkbox">Sunt de acord cu condițiile.</label>
+            <br><br>
+            <input type="submit" value="inregistreaza">
+        </form>
+    </p>
+    <br><br>
+</section >
+
+<section lista>
+    <p>
+        Pentru a crea liste se pot folosi tag-urile:
+    </p>
+    <p><ol>
+        <li>i. ul - listă neordonată</li>
+        <li>ii. ol - listă ordonată</li>
+        <li>iii. li - item din listă </li>
+        <li>iv. dl - listă cu descrieri</li>
+        <li>v. dt - termen dintr-o listă cu descrieri</li>
+        <li>vi. dd - descrierea dintr-o listă cu descrieri</li>
+    </p></ol>
+    <br><br>
+    <p>
+        Pentru a insera un document HTML în altul se poate folosi tag-ul <code>iframe.</code>
+    </p>
+    <p>
+        Astfel, exemplul de mai jos inserează conținutul de la adresa <a href="https://html.spec.whatwg.org/multipage/.">https://html.spec.whatwg.org/multipage/</a>
+    </p>
+    <iframe src="https://html.spec.whatwg.org/multipage/" width="800" height="400"></iframe>
+
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body{
+    background-color:whitesmoke;
+}
+
+/*MENIU NAVIGARE*/
+
+nav#meniu {
+  margin-top: 50px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background: #3498db;
+}
+
+nav#meniu ul {
+  padding: 0;
+  background: white;
+  margin: 0 auto;
+  display: inline-block;
+  height: 50px;
+}
+
+nav#meniu ul li {
+  float: left;
+  padding: 0 20px;
+  background: #3498db;
+  list-style: none;
+  margin-right: 5px;
+  line-height: 50px;
+  height: 50px;
+}
+.menu header h1 img{
+    
+    width:200px;
+    height:100px;
+    
+}
+
+.menu header h1 p{
+    width: calc(100% - 150px);
+    display: inline-block;
+    text-align:center;
+}
+
+
+.about{
+    background-color: moccasin;
+
+}
+.about.h1{
+
+    color:black;
+    text-align: center;
+}
+
+.about.p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.formulare{
+    background-color: lightgreen ;
+}
+
+/*ACASA*/
+.neons p{
+    font-size: 20px;
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+    
+}
+
+@-webkit-keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+ }
+ 
+ to {
+    color: gray;
+   text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+ }
+}
+
+/*INREGISTREAZA*/
+.register input [type=submit]{
+  background-color: #fff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*VIDEO*/
+.video{
+    width: auto;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #000000;
+}
+.flex-container {
+    width: auto;
+	margin: 0 auto;
+    flex-direction: column;
+     text-align: center;
+  }
+  
+  .flex-container > div {
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    align-items: center;
+  }
+
+  /*INVAT JS*/
+  .informations, .draw, .tabel,.loto{
+
+  }
+  .informations p{
+    align-items: left;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .loto h2,.draw h2, p input[type=text]{
+    text-align: center;
+  }
+
+  .draw canvas{
+    width: 600px;
+    height: 400px;
+    border:3px solid #000000;
+  }
