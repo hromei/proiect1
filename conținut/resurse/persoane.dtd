@@ -1,0 +1,65 @@
+<!ELEMENT persoane (persoana)+>
+<!ATTLIST persoane
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT persoana (nume,prenume,varsta,telefon,adresa,educatie)>
+<!ATTLIST persoana
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT nume (#PCDATA)>
+<!ATTLIST nume
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT prenume (#PCDATA)>
+<!ATTLIST prenume
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT varsta (#PCDATA)>
+<!ATTLIST varsta
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT telefon (#PCDATA)>
+<!ATTLIST telefon
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT adresa (strada,numar,localitate,judet,tara)>
+<!ATTLIST adresa
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT educatie (data,titlu,organisation-providing-education)>
+<!ATTLIST educatie
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT strada (#PCDATA)>
+<!ATTLIST strada
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT numar (#PCDATA)>
+<!ATTLIST numar
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT localitate (#PCDATA)>
+<!ATTLIST localitate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT judet (#PCDATA)>
+<!ATTLIST judet
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tara (#PCDATA)>
+<!ATTLIST tara
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT data (#PCDATA)>
+<!ATTLIST data
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT titlu (#PCDATA)>
+<!ATTLIST titlu
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT organisation-providing-education (#PCDATA)>
+<!ATTLIST organisation-providing-education
+  xmlns CDATA #FIXED ''>
+
