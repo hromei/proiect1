@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Învăț JS</title>
+    <link rel="stylesheet" href="../conținut/css/stil.css">
+    
+</head>
+
+<body onload="addLoadEvent()">
+    <main>
+        <aside>
+
+        </aside>
+        <section class="informations">
+            <p>
+                Ce zi e azi?
+            </p>
+            <p id="data"></p>
+            <p id="adresa"></p>
+            <p id="navigator"></p>
+            <p id="browser"></p>
+            <p id="os"></p>
+
+        </section>
+        <section class="loto">
+
+            <h2>Introduceți numerele </h2>
+            <p><input type="text" pattern="[A-Z0-9]{2}" value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}"  value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}" value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}"  value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}" value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}"  value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}" value="" /></p>
+            <p><input type="text" pattern="[A-Z0-9]{2}" value="" /></p>
+
+            <button onclick="randomNumbers()">Vezi numerele castigatoare </button>
+            <p id="numbers"></p>
+
+            <p id="win"></p>
+
+        </section>
+
+        <section class="draw">
+            <h2>Alegeți culoarea și faceți dreptunghiurile</h2>
+            <p id="elementId1" >
+            Culoarea liniei: <input type="color" name="colorPicker" id="myColor1" >
+            </p> 
+          
+            <p id="elementId2"  >
+                Culoarea fundalului: <input type="color" name="colorPicker" id="myColor2">
+            </p>
+         
+            <canvas id="canvas"></canvas>
+            
+        </section>
+
+        <section class="tabel">
+            <h2>Tabel</h2>
+            <p>Specificati pozitia liniei/coloanei la care se face inserarea: <input type="text" value="" /></p>  
+            <p>Alegeti culoarea: <input type="color" name="colorPicker" id="myColor" ></p>
+            <p><input type="button" value="Adauga linie" onclick="msg()"></p>
+            <p><input type="button" value="Adauga coloana" onclick="msg()"></p>
+            <table id="id">
+
+            </table>
+        </section>
+
+
+    </main>
+    <script src="../conținut/js/script.js"></script>
+</body>
+
+</html>

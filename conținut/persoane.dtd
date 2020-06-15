@@ -1,0 +1,17 @@
+
+<!ELEMENT persoane (persoane,persoana, nume, prenume,varsta,telefon,adresa,strada, numar,localitate,oras,judet,tara,educatie,data,titlu,organisation-providing-education)>
+<!ELEMENT persoana (#PCDATA)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT adresa (#PCDATA)>
+<!ELEMENT strada (#PCDATA)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT educatie (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT titlu (#PCDATA)>
+<!ELEMENT organisation-providing-education (#PCDATA)>
